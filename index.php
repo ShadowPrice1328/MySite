@@ -16,7 +16,7 @@ include __DIR__ . "/inc/header.php";
 //}
 //?>
 
-
+<?php include __DIR__ . "/inc/menu.php"; ?>
 <?php include __DIR__ . "/inc/footer.php"; ?>
 
 </body>

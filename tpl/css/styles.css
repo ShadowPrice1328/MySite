@@ -29,7 +29,7 @@ body {
 
 .header-photo {
     width: 100%;
-    height: 235px;
+    height: 200px;
     object-fit: cover;
     display: block;
 }
@@ -77,4 +77,32 @@ body {
     font-weight: lighter;
     font-size: 12px;
     margin-top: auto;
+}
+
+.menu {
+    color: white;
+    font-size: 14px;
+    margin-left: auto;
+    width: fit-content;
+    padding: 2% 10%;
+    align-self: flex-start;
+}
+
+.menu b {
+    margin-bottom: -5px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.menu ul > li {
+    margin-top: 5px;
+}
+
+.menu ul > li a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 12px;
 }
