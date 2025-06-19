@@ -1,3 +1,16 @@
 <?php
-    echo "<h1> Hello World! <h1>";
+$jpgs  = glob(__DIR__ . "/tpl/images/*.jpg");
+$jpegs = glob(__DIR__ . "/tpl/images/*.jpeg");
+$pngs  = glob(__DIR__ . "/tpl/images/*.png");
+
+$images = array_merge($jpgs, $jpegs, $pngs);
 ?>
+
+<body>
+<?php
+foreach ($images as $image) {
+    $filename = basename($image);
+    echo '<img src="/tpl/images/'.$filename.'" /><br />';
+}
+?>
+</body>
