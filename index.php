@@ -8,6 +8,7 @@ include __DIR__ . "/inc/header.php";
 <div id="main-container">
     <div class="container">
         <p class="name-text"> Mountain </p>
+        <p class="subname-text">Posted on <b><?php echo date('d M, Y')?></b> by <b>Anna</b></p>
         <img class="image-big" src="tpl/images/ales-krivec.jpg" alt="ales-krivec"/>
         Something is written here xd
     </div>

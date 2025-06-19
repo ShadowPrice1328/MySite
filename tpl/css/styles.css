@@ -155,4 +155,11 @@ body > div#main-container {
     font-weight: bold;
     font-size: 24px;
     margin: 1rem 0 5px 0;
+    padding-bottom: 5px;
+    border-bottom: black 1px solid;
+}
+
+.subname-text {
+    font-size: 12px;
+    margin: 0.5rem 0 5px 0;
 }
