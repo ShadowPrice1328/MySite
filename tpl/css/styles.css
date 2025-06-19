@@ -13,6 +13,15 @@ body {
     flex-direction: column;
 }
 
+body > div#main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px; /* або інша довільна відстань між блоками */
+    justify-content: flex-start;
+}
+
+
 .header {
     display: flex;
     align-content: center;
@@ -81,10 +90,11 @@ body {
 
 .menu {
     color: white;
-    font-size: 14px;
+    font-size: 16px;
+    margin-right: 5%;
     margin-left: auto;
     width: fit-content;
-    padding: 2% 10%;
+    padding: 2% 0 2% 2%;
     align-self: flex-start;
 }
 
@@ -104,5 +114,45 @@ body {
 .menu ul > li a {
     text-decoration: none;
     color: lightgray;
+    font-size: 14px;
+}
+
+.container {
+    flex-grow: 1;
+    max-width: 100%;
+    margin: 0 15px 30px 30px;
+    color: lightgray;
+    box-sizing: border-box;
+}
+
+.menu {
+    flex-shrink: 0;
+    width: 200px;
+    padding: 2% 0 2% 2%;
+    color: white;
+    font-size: 16px;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+
+.image-big {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 10px 0 20px 0;
+    border: #2c2c2c 4px solid;
+}
+
+.location-text {
+    font-weight: bolder;
     font-size: 12px;
+    margin: 0.5rem 0 0.5rem 2rem;
+    color: lightgray;
+}
+
+.name-text {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 1rem 0 5px 0;
 }

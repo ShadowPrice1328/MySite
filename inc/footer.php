@@ -1,3 +1,4 @@
 <div class="footer">
-    <p style="margin-left: 3rem">Anna Sonchak</p>
+    <span style="margin-left: 3rem">Anna Sonchak</span> -
+    <?php echo date("Y"); ?>
 </div>
