@@ -6,6 +6,8 @@ html {
 
 body {
     margin: 0 15% 0 15%;
+    height: auto;
+    background-color: #232323;
 }
 
 .header {
@@ -63,3 +65,12 @@ body {
     color: cyan;
 }
 
+.footer {
+    background-color: #1c1c1c;
+    height: 45px;
+    border-top: white 2px solid;
+    color: white;
+    align-content: center;
+    font-weight: lighter;
+    font-size: 12px;
+}
