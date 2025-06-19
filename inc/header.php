@@ -12,7 +12,7 @@
     <ul>
         <li><a href="/"> Home </a> </li>
         <li><a href="/"> About </a></li>
-        <li><a href="/"> GitHub </a></li>
+        <li><a href="https://github.com/ShadowPrice1328"> GitHub </a></li>
     </ul>
 </div>
 <link rel="stylesheet" href="../tpl/css/styles.css">

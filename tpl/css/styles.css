@@ -159,6 +159,15 @@ body > div#main-container {
     border-bottom: black 1px solid;
 }
 
+.name-text a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover {
+    color: cyan;
+}
+
 .subname-text {
     font-size: 12px;
     margin: 0.5rem 0 5px 0;

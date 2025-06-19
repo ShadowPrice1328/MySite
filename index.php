@@ -1,5 +1,18 @@
 <?php
-include __DIR__ . "/inc/header.php";
+$uri = $_SERVER['REQUEST_URI'];
+
+switch ($uri) {
+    case '/august2024':
+        include __DIR__ . '/inc/august2024.php';
+        exit;
+    case '/':
+        break;
+    default:
+        header("Location: /");
+        exit;
+}
+
+include_once __DIR__ . '/inc/header.php';
 ?>
 
 <body>
@@ -13,9 +26,8 @@ include __DIR__ . "/inc/header.php";
         Something is written here xd
     </div>
 
-    <?php include __DIR__ . "/inc/menu.php"; ?>
+    <?php include_once __DIR__ . "/inc/menu.php"; ?>
 </div>
 
-<?php include __DIR__ . "/inc/footer.php"; ?>
+<?php include_once __DIR__ . "/inc/footer.php"; ?>
 </body>
-
