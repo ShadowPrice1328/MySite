@@ -1,15 +1,22 @@
 <?php
 $uri = $_SERVER['REQUEST_URI'];
+$uri_parts = explode('/', trim($uri, '/'));
+$destination_url = __DIR__ . '/inc';
 
-switch ($uri) {
-    case '/august2024':
-        include __DIR__ . '/inc/august2024.php';
+if (isset($uri_parts[0]) && $uri_parts[0] !== '') {
+    foreach ($uri_parts as $uri_part) {
+        $destination_url .= '/' . $uri_part;
+    }
+    $destination_url .= '.php';
+
+    if (file_exists($destination_url)) {
+        include $destination_url;
+    } else {
+        header("Location: /404");
         exit;
-    case '/':
-        break;
-    default:
-        header("Location: /");
-        exit;
+    }
+
+    exit;
 }
 
 include_once __DIR__ . '/inc/header.php';
