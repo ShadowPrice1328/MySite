@@ -24,13 +24,13 @@ include_once __DIR__ . '/inc/header.php';
 
 <body>
 
-<p class="location-text">Home -> Latest photos</p>
+<p class="location-text">Home → <b>Latest photos</b></p>
 <div id="main-container">
     <div class="container">
         <p class="name-text"> Mountain </p>
         <p class="subname-text">Posted on <b><?php echo date('d M, Y')?></b> by <b>Anna</b></p>
         <img class="image-big" src="tpl/images/ales-krivec.jpg" alt="ales-krivec"/>
-        Something is written here xd
+        <p class="description">Something is written here xd</p>
     </div>
 
     <?php include_once __DIR__ . "/inc/menu.php"; ?>
@@ -38,3 +38,5 @@ include_once __DIR__ . '/inc/header.php';
 
 <?php include_once __DIR__ . "/inc/footer.php"; ?>
 </body>
+
+<script src="../../tpl/js/open_image.js"></script>

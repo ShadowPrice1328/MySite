@@ -2,11 +2,11 @@
 include_once 'header.php';
 
 $month_year = str_split($uri_parts[0], strlen($uri_parts[0]) - 4);
-$location = "Home -> Archive -> " . ucfirst(htmlspecialchars($month_year[0])) . ' ' . htmlspecialchars($month_year[1]);
+$location = "Home → Archive → " . "<b>" . ucfirst(htmlspecialchars($month_year[0])) . ' ' . htmlspecialchars($month_year[1]) . "</b>";
 ?>
 
 <body>
-<p class="location-text"><?= htmlspecialchars($location)?></p>
+<p class="location-text"><?= $location ?></p>
 <div id="main-container">
     <div class="container">
 
