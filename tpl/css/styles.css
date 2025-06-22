@@ -1,7 +1,8 @@
 html {
-    font-family: "Bahnschrift Light", serif; !important;
+    font-family: "Roboto Condensed", serif;
     margin: 0;
     background-color: #2c2c2c;
+    letter-spacing: 0.6;
 }
 
 body {
@@ -29,7 +30,7 @@ body > div#main-container {
     color: white;
     justify-content: space-between;
     align-items: center;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .header p {
@@ -47,7 +48,7 @@ body > div#main-container {
     height: 47px;
     background-color: #1c1c1c;
     color: lightgray;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -84,13 +85,13 @@ body > div#main-container {
     color: white;
     align-content: center;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: auto;
 }
 
 .menu {
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     margin-right: 5%;
     margin-left: auto;
     width: fit-content;
@@ -114,7 +115,7 @@ body > div#main-container {
 .menu ul > li a {
     text-decoration: none;
     color: lightgray;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .container {
@@ -130,13 +131,13 @@ body > div#main-container {
     width: 200px;
     padding: 2% 0 2% 2%;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     align-self: flex-start;
     box-sizing: border-box;
 }
 
 .image-big {
-    width: 100%;
+    width: 90%;
     height: auto;
     object-fit: cover;
     display: block;
@@ -146,14 +147,14 @@ body > div#main-container {
 }
 
 .location-text {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0.5rem 0 0.5rem 2rem;
     color: lightgray;
 }
 
 .name-text {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 26px;
     margin: 1rem 0 5px 0;
     padding-bottom: 5px;
     border-bottom: black 1px solid;

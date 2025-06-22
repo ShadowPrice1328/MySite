@@ -5,10 +5,10 @@
 
     $location .= " → " . "<b>" . ucfirst($uri_parts[1]) . "</b>";
 
-    $directory =  __DIR__ . "/../../tpl/images/$month_year[1]/$month_year[0]/$uri_parts[1]";
+    $directory =  __DIR__ . "/../../tpl/images/" . $month_year[1] . "/" . ucfirst($month_year[0]). "/" . ucfirst($uri_parts[1]);
     $images = glob("$directory/*.{jpg,png,bmp}", GLOB_BRACE);
 
-    $webPath = "/tpl/images/{$month_year[1]}/{$month_year[0]}/{$uri_parts[1]}";
+    $webPath = "/tpl/images/" . ucfirst($month_year[1]) . "/" . ucfirst($month_year[0]) . "/" . ucfirst($uri_parts[1]);
 ?>
 
 <body>

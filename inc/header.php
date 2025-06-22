@@ -16,3 +16,4 @@
     </ul>
 </div>
 <link rel="stylesheet" href="../tpl/css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
