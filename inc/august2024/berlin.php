@@ -31,19 +31,8 @@
             that I fell asleep while was looking at the sky.</p>
 
         <p class="description">Other pictures you can see below. My next station → Antwerp, Belgium!</p>
-        <div class="gallery-wrapper">
-            <button class="arrow" id="prevBtn">&larr;</button>
-            <table>
-                <tr id="gallery-row">
-                    <?php foreach ($images as $image): ?>
-                        <td class="gallery-image" style="display: none;">
-                            <img src="<?= $webPath . '/' . basename($image) ?>" alt="picture from Berlin" width="150"/>
-                        </td>
-                    <?php endforeach; ?>
-                </tr>
-            </table>
-            <button class="arrow" id="nextBtn">&rarr;</button>
-        </div>
+        <?php include_once __DIR__ . "/../gallery-roll.php"; ?>
+
     </div>
 
     <?php include_once __DIR__ . "/../menu.php"; ?>
