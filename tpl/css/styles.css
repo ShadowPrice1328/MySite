@@ -146,6 +146,11 @@ body > div#main-container {
     cursor: pointer;
 }
 
+.image-horizontal {
+    width: 60%;
+    height: 30%;
+}
+
 .location-text {
     font-size: 14px;
     margin: 0.5rem 0 0.5rem 2rem;

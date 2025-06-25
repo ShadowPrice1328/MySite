@@ -19,10 +19,22 @@
         <p class="name-text"> Zadar 2024 </p>
         <p class="subname-text">Posted on <b>14 Sep, 2024</b> by <b>Anna</b></p>
 
-        <div class="image-row">
-            <img class="image-side" src="/tpl/images/2024/September/Zadar/IMG_7836.jpg" alt="" />
-            <img class="image-side" src="/tpl/images/2024/September/Zadar/IMG_8236.jpg" alt="" />
-        </div>
+        <p class="description"> The citizens seem a bit sleepy! ^_^</p>
+        <img class="image-big" src="/tpl/images/2024/September/Zadar/IMG_7836.jpg" alt="" />
+
+        <p class="description">The road to Nacionalni park Paklenica. You will definitely pass through this bridge (Maslenica Bridge) if you start from Zadar.</p>
+        <img class="image-big" src="/tpl/images/2024/September/Zadar/IMG_8236.jpg" alt="Maslenički most" />
+
+        <!-- <img class="image-big image-horizontal" src="/tpl/images/2024/September/Zadar/IMG_7956.jpg"/> -->
+        
+        <!-- <img class="image-big" src="/tpl/images/2024/September/Zadar/IMG_8081.jpg"/> -->
+        <p class="description"> The Paklenica karst river canyon is a national park in Croatia. It is near Starigrad, northern Dalmatia, on the southern slopes 
+            of Velebit mountain. Best place to climb in Croatia! Sadly, I can't climb that good, but I'll fix it! </p>
+
+        <img class="image-big" src="/tpl/images/2024/September/Zadar/IMG_8203.jpg"/>
+
+        <img class="image-big" src="/tpl/images/2024/September/Zadar/IMG_8268.jpg"/>
+
 
         <p class="description">Other pictures you can see below :></p>
         <?php include_once __DIR__ . "/../gallery-roll.php"; ?>
