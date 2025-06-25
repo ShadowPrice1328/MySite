@@ -30,7 +30,7 @@
         </p>
         <div class="image-row">
             <img class="image-side" src="/tpl/images/2024/August/Antwerp/IMG_7387.jpg" alt="Antwerp statue - Brabo fountain" />
-            <img class="image-side" src="/tpl/images/2024/August/Antwerp/IMG_7379.jpg" alt="Antwerp statue - Brabo fountain" />
+            <img class="image-side" src="/tpl/images/2024/August/Antwerp/IMG_7379.jpg" alt="Antwerp statue" />
         </div>
 
         <p class="description">Other pictures you can see below :></p>
