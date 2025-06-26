@@ -14,6 +14,8 @@ $location = "Home → Archive → " . "<b>" . ucfirst(htmlspecialchars($month_ye
 
         <p class="name-text"> <a href="september2024/zadar">Zadar</a></p>
         <p class="subname-text">Posted on <b>9 Sep, 2024</b> by <b>Anna</b></p>
+        <p class="main-description"></p>
+
     </div>
 
     <?php include "menu.php"; ?>
@@ -21,3 +23,5 @@ $location = "Home → Archive → " . "<b>" . ucfirst(htmlspecialchars($month_ye
 
 <?php include "footer.php"; ?>
 </body>
+
+<script src="../../tpl/js/get_main_desc.js"></script>

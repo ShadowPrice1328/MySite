@@ -18,7 +18,7 @@
     <div class="container">
         <p class="name-text"> Berlin 2024 </p>
         <p class="subname-text">Posted on <b>8 Aug, 2024</b> by <b>Anna</b></p>
-        <p class="description">That was one of the best traveling experiences ever. It was first time when I rode somewhere completely
+        <p class="description" id="main-description">That was one of the best traveling experiences ever. It was first time when I rode somewhere completely
             alone. Me and my suitcase only! I felt so happy and proud of myself, because I've planned all this trip by myself. From Opole to Antwerp
             (see my next post). A few years ago I was talking with my friend and I said "Okay, now I'm riding to Berlin!" as a joke,
             but now... =)</p>

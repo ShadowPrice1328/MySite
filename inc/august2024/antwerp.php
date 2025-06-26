@@ -18,7 +18,7 @@
     <div class="container">
         <p class="name-text"> Antwerp 2024 </p>
         <p class="subname-text">Posted on <b>9 Aug, 2024</b> by <b>Anna</b></p>
-        <p class="description">The next day after Berlin (my beloved) I took a ride to Antwerp from the main train station.
+        <p class="description" id="main-description">The next day after Berlin (my beloved) I took a ride to Antwerp from the main train station.
             My friends invited me to their country, we haven't seen each other for 10(?) years, of course I agreed!
         </p>
         <p class="description"> Thanks god I took a reservation at night train, I mean I was so tired, that I would have died till the morning if I hadn't had a 
