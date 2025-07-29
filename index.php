@@ -24,14 +24,9 @@ include_once __DIR__ . '/inc/header.php';
 
 <body>
 
-<p class="location-text">Home → <b>Latest photos</b></p>
+<p class="location-text">Home → <b>Latest post</b></p>
 <div id="main-container">
-    <div class="container">
-        <p class="name-text"> Mountain </p>
-        <p class="subname-text">Posted on <b><?php echo date('d M, Y')?></b> by <b>Anna</b></p>
-        <img class="image-big" src="tpl/images/ales-krivec.jpg" alt="ales-krivec"/>
-        <p class="description">Something is written here xd</p>
-    </div>
+    <div class="container"></div>
 
     <?php include_once __DIR__ . "/inc/menu.php"; ?>
 </div>
@@ -40,3 +35,5 @@ include_once __DIR__ . '/inc/header.php';
 </body>
 
 <script src="../../tpl/js/open_image.js"></script>
+<script src="../../tpl/js/get_main_desc.js"></script>
+<script src="../../tpl/js/get_latest_post.js"></script>

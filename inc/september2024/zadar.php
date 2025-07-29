@@ -21,10 +21,6 @@
 
         <p class="description">The road to Nacionalni park Paklenica. You will definitely pass through this bridge (Maslenica Bridge) if you start from Zadar.</p>
         <img class="image-big" src="/tpl/images/2024/September/Zadar/IMG_8236.jpg" alt="Maslenički most" />
-
-        <!-- <img class="image-big image-horizontal" src="/tpl/images/2024/September/Zadar/IMG_7956.jpg"/> -->
-        
-        <!-- <img class="image-big" src="/tpl/images/2024/September/Zadar/IMG_8081.jpg"/> -->
         <p class="description" id="main-description"> The Paklenica karst river canyon is a national park in Croatia. It is near Starigrad, northern Dalmatia, on the southern slopes 
             of Velebit mountain. Best place to climb in Croatia! Sadly, I can't climb that good, but I'll fix it! </p>
 
