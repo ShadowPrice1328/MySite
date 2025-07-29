@@ -34,6 +34,6 @@ include_once __DIR__ . '/inc/header.php';
 <?php include_once __DIR__ . "/inc/footer.php"; ?>
 </body>
 
-<script src="../../tpl/js/open_image.js"></script>
 <script src="../../tpl/js/get_main_desc.js"></script>
 <script src="../../tpl/js/get_latest_post.js"></script>
+<script src="../../tpl/js/open_image.js"></script>

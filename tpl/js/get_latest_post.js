@@ -26,11 +26,23 @@ async function fetchMainContainer() {
             const container2 = doc2.querySelector('.container');
 
             if (container2) {
-                const galleryWrapper = container2.querySelector('.gallery-wrapper')
-                galleryWrapper.remove();
+                const galleryWrapper = container2.querySelector('.gallery-wrapper');
+                if (galleryWrapper) galleryWrapper.remove();
 
-                results.push(container2.innerHTML.trim())
+                const nameTextElement = container2.querySelector('.name-text');
+                const postName = nameTextElement.textContent.trim();
+
+                nameTextElement.textContent = '';
+
+                const a = document.createElement('a');
+                a.href = postLinkURL;
+                a.textContent = postName;
+
+                nameTextElement.appendChild(a);
+
+                results.push(container2.innerHTML.trim());
             }
+
         } catch (err) {
             console.error('Error while requesting:', latestPostURL, err);
             results.push('Error');
