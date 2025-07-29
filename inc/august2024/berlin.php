@@ -1,14 +1,11 @@
 <?php
     include_once __DIR__ . "/../header.php";
-    $month_year = str_split($uri_parts[0], strlen($uri_parts[0]) - 4);
-    $location = "Home → Archive → " . ucfirst(htmlspecialchars($month_year[0])) . ' ' . htmlspecialchars($month_year[1]);
+    include_once __DIR__ . "/../path_combiner.php";
 
-    $location .= " → " . "<b>" . ucfirst($uri_parts[1]) . "</b>";
-
-    $directory =  __DIR__ . "/../../tpl/images/" . $month_year[1] . "/" . ucfirst($month_year[0]). "/" . ucfirst($uri_parts[1]);
+    $directory =  __DIR__ . "/../../tpl/images/" . $year . "/" . ucfirst($month) . "/" . ucfirst($uri_parts[1]);
     $images = glob("$directory/*.{jpg,png,bmp}", GLOB_BRACE);
 
-    $webPath = "/tpl/images/" . ucfirst($month_year[1]) . "/" . ucfirst($month_year[0]) . "/" . ucfirst($uri_parts[1]);
+    $webPath = "/tpl/images/" . $year . "/" . ucfirst($month). "/" . ucfirst($uri_parts[1]);
 ?>
 
 <body>

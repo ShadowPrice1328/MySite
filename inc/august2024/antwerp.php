@@ -2,10 +2,10 @@
     include_once __DIR__ . "/../header.php";
     include_once __DIR__ . "/../path_combiner.php";
 
-    $directory =  __DIR__ . "/../../tpl/images/" . $month_year[1] . "/" . ucfirst($month_year[0]). "/" . ucfirst($uri_parts[1]);
+    $directory =  __DIR__ . "/../../tpl/images/" . $year . "/" . ucfirst($month) . "/" . ucfirst($uri_parts[1]);
     $images = glob("$directory/*.{jpg,png,bmp}", GLOB_BRACE);
 
-    $webPath = "/tpl/images/" . ucfirst($month_year[1]) . "/" . ucfirst($month_year[0]) . "/" . ucfirst($uri_parts[1]);
+    $webPath = "/tpl/images/" . $year . "/" . ucfirst($month). "/" . ucfirst($uri_parts[1]);
 ?>
 
 <body>
