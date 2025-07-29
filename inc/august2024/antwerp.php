@@ -1,9 +1,6 @@
 <?php
     include_once __DIR__ . "/../header.php";
-    $month_year = str_split($uri_parts[0], strlen($uri_parts[0]) - 4);
-    $location = "Home → Archive → " . ucfirst(htmlspecialchars($month_year[0])) . ' ' . htmlspecialchars($month_year[1]);
-
-    $location .= " → " . "<b>" . ucfirst($uri_parts[1]) . "</b>";
+    include_once __DIR__ . "/../path_combiner.php";
 
     $directory =  __DIR__ . "/../../tpl/images/" . $month_year[1] . "/" . ucfirst($month_year[0]). "/" . ucfirst($uri_parts[1]);
     $images = glob("$directory/*.{jpg,png,bmp}", GLOB_BRACE);
