@@ -21,7 +21,7 @@ if (isset($uri_parts[0]) && $uri_parts[0] !== '') {
 
 include_once __DIR__ . '/inc/header.php';
 ?>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
 
 <p class="location-text">Home → <b>Latest post</b></p>

@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="menu" id="menu">
     <b>Archive</b>
     <ul>
         <li> <a href="/august2024"> August 2024 </a></li>

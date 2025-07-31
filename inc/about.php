@@ -32,7 +32,7 @@
             </p>
             <p class = "description">I am absolutelly cat person. Winter is better than summer and night is better than the morning.</p>
             <p class = "description">Bye. </br> </br>
-            <img src="../tpl/images/meme.jpg"/>
+            <img src="../tpl/images/meme.jpg" id="meme-img"/>
         </div>
         <?php include_once "menu.php";?>
     </div>
