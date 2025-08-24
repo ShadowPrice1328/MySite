@@ -10,11 +10,11 @@ include_once 'path_combiner.php';
 
         <h3>+ August 2024 +</h3>
 
-        <p class="name-text"> <a href="august2024/berlin">Berlin</a></p>
+        <p class="name-text"> <a href="august2024/berlin">Berlin, Germany</a></p>
         <p class="subname-text">Posted on <b>8 Aug, 2024</b> by <b>Anna</b></p>
         <p class="main-description"></p>
 
-        <p class="name-text"> <a href="august2024/antwerp">Antwerp</a></p>
+        <p class="name-text"> <a href="august2024/antwerp">Antwerp, Belgium</a></p>
         <p class="subname-text">Posted on <b>9 Aug, 2024</b> by <b>Anna</b></p>
         <p class="main-description"></p>
 
