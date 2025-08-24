@@ -32,7 +32,7 @@
             <img class="image-side" src="/tpl/images/2025/August/Rome/IMG_2730.jpg" alt="Sparrow standing on the ground">
         </div>  
 
-        <p class="description">Other pictures you can see below.</p>
+        <p class="description" id="end">Other pictures you can see below.</p>
         <?php include_once __DIR__ . "/../gallery-roll.php"; ?>
 
     </div>

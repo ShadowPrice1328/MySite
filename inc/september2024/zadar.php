@@ -29,7 +29,7 @@
         <img class="image-big" src="/tpl/images/2024/September/Zadar/IMG_8268.jpg"/>
 
 
-        <p class="description">Other pictures you can see below :></p>
+        <p class="description" id="end">Other pictures you can see below :></p>
         <?php include_once __DIR__ . "/../gallery-roll.php"; ?>
     </div>
 

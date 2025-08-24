@@ -29,6 +29,9 @@ async function fetchMainContainer() {
                 const galleryWrapper = container2.querySelector('.gallery-wrapper');
                 if (galleryWrapper) galleryWrapper.remove();
 
+                const end_line = container2.querySelector('#end');
+                if (end_line) end_line.remove();
+
                 const nameTextElement = container2.querySelector('.name-text');
                 const postName = nameTextElement.textContent.trim();
 
